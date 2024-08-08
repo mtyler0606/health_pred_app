@@ -7,3 +7,4 @@ ipython==8.20.0
 joblib==1.2.0
 voila==0.5.7
 ipykernel==6.28.00
+xgboost==2.0.3
