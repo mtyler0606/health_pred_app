@@ -1,4 +1,5 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mtyler0606/health_pred_app/master?labpath=voila%2Frender%2Fpath%2Fto%2Fhealth_pred_app.ipynb)
+Welcome to the page for my medical prescreening app! This application is designed to generate predictions for heart attack, heart disease, stroke, COPD, skin cancer, and diabetes diagnoses using information that almost any adult patient would be able to provide. These predictions are intended to be used as part of a hypothetical prescreening process to identify at-risk patients in order to maximize diagnostic resources without the need for laboratory tests or a medical history. The predictions are made using six machine-learning models that were trained on CDC survey data that I have selected and cleaned. This application is part of my Capstone project for my B.S. in Computer Science at Western Governors University.     
+ 
+This project uses Python with NumPy, Pandas, and XGBoost for machine learning and analysis, and MatPlotLib and Plotly for Visualization. I used Jupyter Notebooks for my development environment, Ipywidgets to build the user interface, and Voila for deployment. 
 
-... image:: https://mybinder.org/badge_logo.svg
- :target: https://mybinder.org/v2/gh/mtyler0606/health_pred_app/master?labpath=voila%2Frender%2Fpath%2Fto%2Fhealth_pred_app.ipynb
+The application is deployed at https://health-prediction-app.up.railway.app/
